@@ -14,7 +14,7 @@ class VariationalAutoEncoder(nn.Module):
         self.z_2hid = nn.Linear(z_dim, h_dim)
         self.hid_2img = nn.Linear(h_dim, input_dim)
 
-        self.relu = nn.ReLU()
+        self.relu = nn.LeakyReLU()
 
     def encode(self, x):
         h = self.relu(self.img_2hid(x))
