@@ -16,7 +16,7 @@ All plots obtained after 10 epochs of training. Hyperparameters accordning to de
 
 ### z ~ q(z|x)
 
-The modeled latent distribution after 10 epochs and 100 samples per digit.
+The modeled latent distribution after 10 epochs and 35 samples per digit.
 
 
 
